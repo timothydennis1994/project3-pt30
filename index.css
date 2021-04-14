@@ -1,0 +1,224 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
+
+p, a {
+    font-family: 'Roboto Mono', monospace;
+}
+
+#header-nav {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+
+    
+}
+
+#header-nav a:nth-child(1) {
+    padding: 1rem 3rem;
+    margin:2rem;
+    border: .1rem solid #FF764E;
+    background-color: #FF764E;
+    border-radius: 1rem;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+#header-nav a:nth-child(2) {
+    padding: 1rem 3rem;
+    margin:2rem;
+    border: .1rem solid #5ED3EB;
+    background-color: #5ED3EB;
+    border-radius: 1rem;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+#header-nav a:nth-child(3) {
+    padding: 1rem 3rem;
+    margin:2rem;
+    border: .1rem solid #FFCD69;
+    background-color: #FFCD69;
+    border-radius: 1rem;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+#header-img {
+    border-radius: 50%;
+    width: 20%;
+    margin-left: 8%;
+    margin-bottom: 5%;
+
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    align-items: center;
+}
+#container2 {
+    margin-right: 15%;
+    line-height: 3rem;
+    text-align: center;
+    width: 50%;
+   
+}
+h1 {
+    font-size: 4rem;
+    font-family: 'Chelsea Market', cursive;
+}
+
+.text-container1 {
+    font-size: 1.3rem;
+    line-height: 5rem;
+    margin-top: 3rem;
+ 
+
+}
+.text-container1 p:nth-child(2) {
+    line-height: 1;
+    width: 60%;
+    margin-left: 20%;
+    justify-content: center;
+}
+
+.text-container2 {
+    background-color: #DDB9A3;
+    text-align: center;
+    width: 70%;
+    color: white;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    margin: 0 0 2rem 15%;
+}
+.text-container2 p:nth-child(2) {
+    margin-top: 1rem;
+}
+
+#imgcon1 {
+    width: 30%;
+    margin-bottom: 1rem;
+}
+#container3 {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    flex-wrap: wrap;
+    margin-left: 40%;
+}
+#container3 p {
+    text-align: center;
+}
+#imgcon2 {
+    width: 30%;
+}
+#container4 {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    flex-wrap: wrap;
+    margin: 5rem 0 5rem 40%;
+}
+#container4 p {
+    text-align: center;
+}
+
+#footer-img {
+    height: 30vh;
+    width: 100%;
+   
+}
+
+span {
+    font-weight: bold;
+}
+
+#footer-nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F9E7DC;
+
+}
+
+#footer-nav a:nth-child(1) {
+    padding: 1rem 3rem;
+    margin:2rem;
+    border: .1rem solid #FF764E;
+    background-color:#FF764E;
+    border-radius: 1rem;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+#footer-nav a:nth-child(2) {
+    padding: 1rem 3rem;
+    margin:2rem;
+    border: .1rem solid #5ED3EB;
+    background-color: #5ED3EB;
+    border-radius: 1rem;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+#footer-nav a:nth-child(3) {
+    padding: 1rem 3rem;
+    margin:2rem;
+    border: .1rem solid #FFCD69;
+    background-color: #FFCD69;
+    border-radius: 1rem;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
